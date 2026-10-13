@@ -1,0 +1,13 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1791913226333,
+      "tag": "0000_striped_fantastic_four",
+      "breakpoints": true
+    }
+  ]
+}
