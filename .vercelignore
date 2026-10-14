@@ -3,5 +3,4 @@
 .wrangler
 build
 examples
-vendor
 vite.config.ts
