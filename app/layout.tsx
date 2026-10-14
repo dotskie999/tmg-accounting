@@ -2,11 +2,11 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "CostFlow · Inventory & Menu Costing",
+  title: "TMG Accounting · Inventory & Menu Costing",
   description: "Current-cost inventory, recipe costing, and menu pricing for food businesses.",
   icons: {
-    icon: "/favicon.svg",
-    shortcut: "/favicon.svg",
+    icon: "/tmg-accounting.png",
+    shortcut: "/tmg-accounting.png",
   },
 };
 

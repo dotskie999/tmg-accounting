@@ -1,0 +1,7 @@
+.openai
+.sites-runtime
+.wrangler
+build
+examples
+vendor
+vite.config.ts
