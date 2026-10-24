@@ -54,11 +54,11 @@ export default function LoginForm({ configured }: { configured: boolean }) {
   return (
     <main className="auth-page">
       <section className="auth-card">
-        <div className="auth-brand"><div className="brand-logo" role="img" aria-label="TMG Accounting" /><div><strong>TMG Accounting</strong><small>Inventory & Menu Costing</small></div></div>
+        <div className="auth-brand"><div className="brand-logo" role="img" aria-label="TMG Accounting" /><div><strong>TMG Accounting</strong><small>Simple food costing</small></div></div>
         <div className="auth-lock"><LockKeyhole size={21} /></div>
         <p className="eyebrow">Private business workspace</p>
         <h1>{mode === "signin" ? "Welcome back" : "Create your workspace"}</h1>
-        <p className="auth-copy">Sign in securely to manage inventory, recipe costs, and menu pricing.</p>
+        <p className="auth-copy">Sign in to manage ingredients, preparations, menu costs, and selling prices.</p>
 
         {!configured && <div className="auth-setup"><strong>Supabase setup required</strong><span>Add the variables from .env.example before signing in.</span></div>}
 
